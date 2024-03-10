@@ -43,6 +43,8 @@ in {
     pkgs.gopls
     pkgs.zigpkgs.master
 
+    pkgs.cowsay
+
     # Node is required for Copilot.vim
     pkgs.nodejs
   ] ++ (lib.optionals isDarwin [
@@ -99,6 +101,14 @@ in {
 
   programs.gpg.enable = !isDarwin;
 
+  programs.nix-index = {
+      enable = true;
+      enableBashIntegration = true;
+      enableFishIntegration = true;
+  };
+
+  programs.command-not-found.enable = false;
+  
   programs.bash = {
     enable = true;
     shellOptions = [];

@@ -15,9 +15,9 @@
     home = "/home/mitchellh";
     extraGroups = [ "docker" "wheel" ];
     shell = pkgs.fish;
-    hashedPassword = "$6$p5nPhz3G6k$6yCK0m3Oglcj4ZkUXwbjrG403LBZkfNwlhgrQAqOospGJXJZ27dI84CbIYBNsTgsoH650C1EBsbCKesSVPSpB1";
+    hashedPassword = "$y$j9T$tdtTGvKCrmIkxUT7i6.fv/$DFUI2UFw8upkRPwf8XgUuQFPadVCbAl5.Mov0Hz0jm.";
     openssh.authorizedKeys.keys = [
-      "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGbTIKIPtrymhvtTvqbU07/e7gyFJqNS4S0xlfrZLOaY mitchellh"
+      "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCja76V7T/OmaLz0QgsRtDiHK+ccFOwf/ND1UAhmUFhbfdZGu9V45PWYXUsBj2ig6u8dk97r1FI+zULR5sg2gzjgGKz6C+bkx21QPZBWDdHDaksAT8iGEpWXm/U5wCL5Hh9/8/cNgS2F8tP7dRSHqtuVuu183RznlXgw9SZszbySzuCKz9hOBqXag/qvM29+Vw9t0RxrBnuOLp3G3RrE5ELnBvg+g6iezv9lfPrGzYv+tiE55Rwzyfv5IA3ZuySX6cTcUhdRTJPO1k+9hAMg/CnZlBNQBbFoJmxFPTuFOaO+/UNqExbqH7I05a3WQLYnv1/AWtQ0OEmoB7dMClAtrKp wgorman@cerner.com"
     ];
   };
 
